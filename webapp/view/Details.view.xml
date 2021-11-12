@@ -6,7 +6,12 @@
 >
 	<Page title="{i18n>detailsTitle}">
 		<content>
-            <Text text="{Description}"></Text>
+            <HBox >
+                <Text text="{Description}" />
+            </HBox>
+            <HBox>
+                <Text text="{Status}" />
+            </HBox>
         </content>
 	</Page>
 
