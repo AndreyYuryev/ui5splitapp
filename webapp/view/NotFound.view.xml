@@ -1,0 +1,11 @@
+<mvc:View
+    controllerName="routingsplitapp.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Page title="{i18n>notfoundTitle}">
+		<content />
+	</Page>
+
+</mvc:View>
