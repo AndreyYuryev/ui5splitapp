@@ -10,6 +10,12 @@ sap.ui.define([
 		return Controller.extend("routingsplitapp.controller.Master", {
 			onInit: function () {
 
-			}
+            },
+            onItemPress: function(oEvent) {
+                let oObject = oEvent.getSource().getBindingContext().getObject();
+                this.getOwnerComponent().getRouter().navTo('RouteDetails', {
+                    id: oObject.EventId,
+                })
+            }
 		});
 	});

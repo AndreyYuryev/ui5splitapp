@@ -5,7 +5,11 @@
     xmlns="sap.m"
 >
 	<Page id="page" title="{i18n>title}">
-		<content />
+		<content>
+            <List items="{/EventSet}">
+                <ObjectListItem type="Active" title="{Title}" intro="{Status}" number="{EventDate}" numberUnit="{Status}" press="onItemPress"/>
+            </List>
+        </content>
 	</Page>
 
 </mvc:View>

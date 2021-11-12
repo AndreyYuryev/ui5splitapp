@@ -5,7 +5,9 @@
     xmlns="sap.m"
 >
 	<Page title="{i18n>detailsTitle}">
-		<content />
+		<content>
+            <Text text="{Description}"></Text>
+        </content>
 	</Page>
 
 </mvc:View>
