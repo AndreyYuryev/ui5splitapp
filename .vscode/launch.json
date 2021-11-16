@@ -21,9 +21,9 @@
       "console": "internalConsole",
       "internalConsoleOptions": "openOnSessionStart",
       "env": {
-        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/routingsplitapp/SplitApp\"}",
         "FIORI_TOOLS_UI5_VERSION": "1.95.0",
         "FIORI_TOOLS_UI5_URI": "https://ui5.sap.com",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/routingsplitapp/SplitApp\"}",
         "FIORI_TOOLS_BACKEND_CONFIG": "[{\"path\":\"/sap\",\"destination\":\"ui5\"}]"
       }
     }
